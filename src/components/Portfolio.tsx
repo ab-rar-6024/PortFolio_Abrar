@@ -1,12 +1,12 @@
 import { motion } from "motion/react";
-import { Badge } from "./ui/badge";
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
-import { Mail, Phone, MapPin, Linkedin, ExternalLink, Calendar, Award, Code, Brain, Database, BarChart3, Users, Download, Github, MessageCircle } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, ExternalLink, Calendar, Award, Code, Brain, Database, BarChart3, Users, Github } from "lucide-react";
 import { FloatingIcons } from "./FloatingIcons";
 import { InteractiveSkillCard } from "./InteractiveSkillCard";
 import { InteractiveProjectCard } from "./InteractiveProjectCard";
-import profileImage from "../assets/profile.png";
+
 
 export function Portfolio() {
   const skillCategories = [
@@ -44,123 +44,97 @@ export function Portfolio() {
 
   const projects = [
     {
-      title: "LandslideX — Vulnerability Assessment & Risk Monitor",
-      year: "2025",
-      type: "Hackathon",
-      technologies: ["Javascript", "Python", "Google Earth Engine", "LSTM"],
-      achievements: [
-        "ML-based geospatial platform to identify landslide-prone zones in Tamil Nadu",
-        "Generated static vulnerability heatmaps using historical satellite & rainfall data",
-        "Integrated risk simulation and confidence scoring for long-term planning"
-      ],
-      link: "https://github.com/Hamdhan04/LandslideX-Detection-Monitoring"
-    },
-    {
-      title: "Student Attendance & Concentration Tracking System",
-      year: "2025",
-      type: "Hackathon",
-      technologies: ["Python", "Flask", "AWS Rekognition", "OpenCV"],
-      achievements: [
-        "Automated attendance using real-time face recognition via webcam",
-        "Tracked focus vs distraction using eye-state analysis",
-        "Generated daily Excel reports with duplicate attendance prevention"
-      ],
-      link: "https://github.com/Hamdhan04/Student-Attendance-Concentration"
-    },
-    {
-      title: "Callisto AI — End-to-End Answering Chatbot",
-      year: "2025",
+      title: "Power BI Analytics Project",
+      year: "2024",
       type: "Project",
-      technologies: ["Node.js", "Express", "JavaScript", "LLM APIs"],
+      technologies: ["Power BI", "Data Analysis"],
       achievements: [
-        "Full-stack conversational AI with secure login and chat persistence",
-        "Real-time question answering with dynamic, dark-themed chat UI",
-        "Sidebar-based conversation history management for seamless UX"
+        "Designed interactive dashboards with KPIs, charts, slicers, and filters.",
+        "Analyzed operational datasets to generate actionable insights."
       ],
-      link: "https://github.com/Hamdhan04/End-To-End-Answering-Chatbot"
+      link: "https://github.com/ab-rar-6024/Power-BI-Analytics-Project"
     },
     {
-      title: "Real-Time Analytics & Visualization Dashboard",
-      year: "2025",
+      title: "Chatbot",
+      year: "2024",
       type: "Project",
-      technologies: ["R", "Shiny", "ggplot2", "quantmod"],
+      technologies: ["AI / NLP", "Python"],
       achievements: [
-        "Interactive dashboard for data upload, EDA, and visual analytics",
-        "Correlation heatmaps, summary stats, and dynamic plots",
-        "Integrated real-time stock price monitoring and export features"
+        "Developed a rule-based and AI-assisted chatbot for automated query handling.",
+        "Improved response efficiency using predefined logic and NLP concepts."
       ],
-      link: "https://github.com/Hamdhan04/Real-Time-Analytics-Visualization-Dashboard"
+      link: "https://github.com/ab-rar-6024/chatbot"
+    },
+    {
+      title: "College Portal Management System",
+      year: "2023",
+      type: "Project",
+      technologies: ["Web Development", "Databases"],
+      achievements: [
+        "Built a web-based portal for student registration and academic management.",
+        "Implemented CRUD operations and role-based access control."
+      ],
+      link: "https://github.com/ab-rar-6024/students_portal"
+    },
+    {
+      title: "Data Visualization Tool using R",
+      year: "2023",
+      type: "Project",
+      technologies: ["R", "ggplot2"],
+      achievements: [
+        "Created analytical visualizations using R and ggplot2.",
+        "Transformed raw data into meaningful graphical reports."
+      ],
+      link: "https://github.com/ab-rar-6024/Data-portal-for-Visualization"
     }
   ];
 
   const experience = [
     {
-      title: "Data Analytics & Visualization Intern",
-      company: "EinNel Technologies",
-      duration: "Jul 2025 – Aug 2025",
-      location: "Remote",
-      achievements: [
-        "Built an interactive analytics dashboard in Angular using ECharts & AG Grid with real-time data integration",
-        "Implemented features like expandable charts, time toggles (12h/24h), dynamic/static X-axis modes, and live API data tables",
-        "Designed a Framer-style sidebar for variable creation, improving dashboard flexibility and user experience",
-        "Strengthened skills in Angular, Tailwind CSS, APIs, and real-time visualization through hands-on industry projects"
-      ],
-      link: "https://drive.google.com/file/d/1PPa_Z1v7wo5HYV-pUiY4A7sXUCWBsqGo/view?usp=sharing"
-    },
-    {
-      title: "Data Analytics & Software Development Intern",
+      title: "IT Intern",
       company: "DP World",
-      duration: "Jun 2025 – Jul 2025",
-      location: "Chennai, India · On-site",
+      duration: "19 June 2025 – 9 July 2025",
+      location: "On-site",
       achievements: [
-        "Developed live Power BI dashboards integrating SQL Server & Python for real-time monitoring",
-        "Built a chatbot with PDF upload, Wikipedia integration, and voice-enabled features",
-        "Prototyped a student portal & e-commerce app (QuickPin) with core modules (login, cart, payment, tracking)",
-        "Automated Excel & Word workflows, enhancing reporting and bulk communication efficiency"
+        "Completed a 15-day intensive IT internship focused on hands-on practical learning.",
+        "Worked on 10 project-based tasks involving IT systems and applications.",
+        "Gained exposure to software development, system support, and database operations.",
+        "Assisted in application development, testing, and troubleshooting.",
+        "Followed IT workflows, documentation, and industry best practices.",
+        "Collaborated with team members in a real-time operational environment."
       ],
-      link: "https://drive.google.com/file/d/1NM897iq8JAw-txfJOwHFt-UYDYwSzh-f/view?usp=sharing"
-    },
-    {
-      title: "Artificial Intelligence Intern",
-      company: "Plasmid Innovation",
-      duration: "Dec 2024 – Feb 2025",
-      location: "Remote",
-      achievements: [
-        "Completed 5-week training on AI concepts, applying models to 3+ use cases in healthcare and education, improving project execution accuracy by 20%",
-        "Developed and deployed a neural network model achieving 87% accuracy on MNIST, reducing manual labeling by 40% in simulation"
-      ],
-      link: "https://drive.google.com/file/d/1XwGEVSepiXJ_v4gQr8igFw8Ej60Fdl58/view?usp=drive_link"
+      link: "https://drive.google.com/file/d/1lc7u0PAGKOuUaZiLguQRwCbrHzP108F7/view?usp=sharing"
     }
   ];
 
   const certifications = [
     {
-      name: "Google AI Essentials - Coursera",
-      link: "https://drive.google.com/file/d/1rXqSXfY8bTsspniaDRa9a0aGETvkBbRW/view?usp=sharing"
+      name: "AWS Project Network – Coursera",
+      link: "https://drive.google.com/file/d/1fyLzirEZAGTPNcANUUJyW9DnB73CGAvW/view?usp=sharing"
     },
     {
-      name: "R for Data Science - Open Source Club, Crescent",
-      link: "https://drive.google.com/file/d/1O50rqLfkHNDYmPeXBEe2uUe2n0B4ygND/view?usp=sharing"
+      name: "Machine Learning A-Z – Udemy",
+      link: "https://drive.google.com/file/d/1rewrTS1-e5vjZTrYYoL7oENw4JR0-2wF/view?usp=sharing"
     },
     {
-      name: "Python & C - CodeGalatta",
-      link: "https://drive.google.com/file/d/1kWNY5GA_8urKWnycAjDOFTMVlb6cFlQu/view?usp=sharing"
+      name: "Deep Learning – Udemy",
+      link: "https://drive.google.com/file/d/1d7ZzFLE4ysBbTq8rqJdBiXHiqyZaK40Q/view?usp=sharing"
     },
     {
-      name: "Learning Data Mining with R - Infosys Springboard",
-      link: "https://drive.google.com/file/d/1V8ozpNzijuBIu7FcmoUz3J_E7LiA7gKF/view?usp=sharing"
+      name: "Data Mining in R – Infosys",
+      link: "https://drive.google.com/file/d/1GA03DsuCuC4GVngXrrO5nGiU4MX5aBHS/view?usp=sharing"
     },
     {
-      name: "Data Visualization - Forage",
-      link: "https://drive.google.com/file/d/1SwG_KKLdjJ7LmjbduL2eNES0G_mcnjTW/view?usp=sharing"
+      name: "Business Intelligence – Infosys",
+      link: "https://drive.google.com/file/d/1ZlaFEyN0polEk6ChSuoqaDBgGhw2mcug/view?usp=sharing"
     },
     {
-      name: "Completion of C & C++ - IIT Bombay",
-      link: "https://drive.google.com/file/d/11Rai00E3GQPJ4mz4j4usXNf46TVSrH3I/view?usp=sharing"
+      name: "BCGX Job Simulation (Generative AI)",
+      link: "https://drive.google.com/file/d/1rQKIyTGEhoVn8gJZYqL7jzHvYYPHu7os/view?usp=sharing"
     },
     {
-      name: "Data Science Using Python - INI",
-      link: "https://drive.google.com/file/d/1REn8dWSs6NQNvOl70pBrNwah_radGMqh/view?usp=sharing"
+      name: "Quantium Job Simulation",
+      link: "https://drive.google.com/file/d/19jc3SUw8TBSFhLQl3A4y3Lx7ZcRploxc/view?usp=sharing"
     }
   ];
 
@@ -180,11 +154,11 @@ export function Portfolio() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-12">
             <motion.div
-              className="space-y-8"
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
+              className="space-y-8 flex flex-col items-center"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <motion.p
@@ -193,7 +167,7 @@ export function Portfolio() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                Hey, I am Mohamed Hamdhan
+                Hey, I am Mohamed Abrar S A
               </motion.p>
 
               <motion.h1
@@ -206,7 +180,7 @@ export function Portfolio() {
               </motion.h1>
 
               <motion.p
-                className="text-xl max-w-lg leading-relaxed text-foreground/80"
+                className="text-xl leading-relaxed text-foreground/80"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.8 }}
@@ -215,7 +189,7 @@ export function Portfolio() {
               </motion.p>
 
               <motion.div
-                className="flex flex-wrap gap-4"
+                className="flex flex-wrap gap-4 justify-center"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 1 }}
@@ -229,8 +203,8 @@ export function Portfolio() {
                   className="border-primary text-primary hover:bg-primary/10 px-8 group"
                 >
                   <a
-                    href="/Mohamed_Hamdhan_AI_Engineer_CV.pdf"
-                    download="Mohamed_Hamdhan_AI_Engineer_CV.pdf"
+                    href="/resume.pdf"
+                    download="Mohamed_Abrar_CV.pdf"
                   >
                     Download CV
                   </a>
@@ -242,7 +216,7 @@ export function Portfolio() {
               </motion.div>
 
               <motion.div
-                className="flex items-center gap-6 pt-4"
+                className="flex items-center gap-6 pt-4 justify-center"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 1.2 }}
@@ -253,7 +227,7 @@ export function Portfolio() {
                   transition={{ duration: 0.2 }}
                 >
                   <Phone className="w-4 h-4" />
-                  +91 99435 72354
+                  +91 90422 72801
                 </motion.div>
                 <motion.div
                   className="flex items-center gap-2 text-sm text-foreground/70"
@@ -263,59 +237,6 @@ export function Portfolio() {
                   <MapPin className="w-4 h-4" />
                   Chennai, India
                 </motion.div>
-              </motion.div>
-            </motion.div>
-
-            {/* Profile Photo Section - Clean Circle Design */}
-            <motion.div
-              className="relative flex justify-center items-center"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1, delay: 0.5 }}
-            >
-              <div className="relative w-80 h-80">
-                {/* Background gradient blur effect */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-secondary/30 rounded-full blur-3xl"></div>
-
-                {/* Main gradient circle background */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-full p-1 shadow-2xl shadow-primary/20">
-                  {/* Inner white circle for clean photo border */}
-                  <div className="w-full h-full bg-[#fafbfc] rounded-full p-2 shadow-inner">
-                    {/* Profile Photo Container */}
-                    <div className="w-full h-full rounded-full overflow-hidden">
-
-                      <img
-                        src={profileImage}
-                        alt="Mohamed Hamdhan"
-                        className="w-full h-full object-cover object-center"
-                      />
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Floating elements around the photo */}
-              <motion.div
-                className="absolute top-8 right-8 text-accent"
-                animate={{ y: [0, -10, 0], rotate: [0, 15, 0] }}
-                transition={{ duration: 3, repeat: Infinity }}
-              >
-                <Code className="w-6 h-6" />
-              </motion.div>
-              <motion.div
-                className="absolute bottom-8 left-8 text-secondary"
-                animate={{ y: [0, -15, 0], rotate: [0, -15, 0] }}
-                transition={{ duration: 4, repeat: Infinity, delay: 1 }}
-              >
-                <Database className="w-8 h-8" />
-              </motion.div>
-              <motion.div
-                className="absolute top-16 left-8 text-primary"
-                animate={{ y: [0, -12, 0], rotate: [0, -20, 0] }}
-                transition={{ duration: 5, repeat: Infinity, delay: 2 }}
-              >
-                <Brain className="w-5 h-5" />
               </motion.div>
             </motion.div>
           </div>
@@ -354,7 +275,7 @@ export function Portfolio() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.8, delay: 0.2 }}
                 >
-                  Motivated and goal-oriented B.Tech student in Artificial Intelligence and Data Science with a passion for solving real-world problems through data-driven and AI-powered solutions. Proficient in Python, SQL, and Machine Learning, with hands-on experience in data analysis, visualization, and secure authentication systems. Completed the Google AI Essentials Certificate and an online internship at Plasmid, gaining practical exposure to AI tools and real-world project workflows. Eager to contribute to innovative projects through continuous learning, critical thinking, and strong technical skills.
+                  Aspiring Data Science Engineer pursuing B.Tech in Artificial Intelligence and Data Science, seeking internship and entry-level opportunities to apply knowledge of machine learning, data analysis, and software development. Eager to contribute to real-world projects and gain hands-on industry experience.
                 </motion.p>
               </CardContent>
             </Card>
@@ -412,7 +333,7 @@ export function Portfolio() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Featured Projects
+            My Projects
           </motion.h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -448,7 +369,7 @@ export function Portfolio() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Technical Experience
+            Internship Experience
           </motion.h2>
 
           <div className="space-y-8">
@@ -576,18 +497,6 @@ export function Portfolio() {
                       Majors: Machine Learning, Deep Learning, Data Structures and Algorithms, Artificial Intelligence, Data Mining, Natural Language Processing, Python Programming
                     </p>
                   </motion.div>
-
-                  <motion.div
-                    whileHover={{ x: 5 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <h3 className="font-medium text-lg text-foreground">Delta Public School (CBSE)</h3>
-                    <p className="text-secondary">Class XII (CBSE Board)</p>
-                    <p className="text-sm text-muted-foreground">June 2022 – May 2023 | Koothanallur, India</p>
-                    <p className="text-xs text-foreground/70 mt-2">
-                      Subjects: Mathematics, Physics, Chemistry, Computer Science, English
-                    </p>
-                  </motion.div>
                 </CardContent>
               </Card>
             </motion.div>
@@ -680,8 +589,7 @@ export function Portfolio() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Passionate about solving problems through innovation, teamwork, and continuous learning.
-            Participated in 5+ AI hackathons and technical workshops.
+            Aspiring Data Science Engineer pursuing B.Tech in Artificial Intelligence and Data Science, seeking internship and entry-level opportunities to apply knowledge of machine learning, data analysis, and software development. Eager to contribute to real-world projects and gain hands-on industry experience.
           </motion.p>
 
           <motion.div
@@ -698,10 +606,10 @@ export function Portfolio() {
               <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 group"
-                onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=mdhamdhan04@gmail.com&su=Portfolio%20Contact', '_blank')}
+                onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=samohamedabrar2005@gmail.com&su=Portfolio%20Contact', '_blank')}
               >
                 <Mail className="w-5 h-5 mr-2" />
-                mdhamdhan04@gmail.com
+                samohamedabrar2005@gmail.com
                 <motion.div
                   className="ml-2"
                   whileHover={{ x: 5 }}
@@ -720,7 +628,7 @@ export function Portfolio() {
                 variant="outline"
                 size="lg"
                 className="border-secondary text-secondary hover:bg-secondary/10 px-8"
-                onClick={() => window.open('https://www.linkedin.com/in/mohamed-hamdhan-9a8910352/', '_blank')}
+                onClick={() => window.open('https://www.linkedin.com/in/mohamed-abrar-24sa/', '_blank')}
               >
                 <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn Profile
@@ -736,7 +644,7 @@ export function Portfolio() {
                 variant="outline"
                 size="lg"
                 className="border-accent text-accent hover:bg-accent/10 px-8"
-                onClick={() => window.open('https://github.com/Hamdhan04', '_blank')}
+                onClick={() => window.open('https://github.com/ab-rar-6024', '_blank')}
               >
                 <Github className="w-5 h-5 mr-2" />
                 GitHub

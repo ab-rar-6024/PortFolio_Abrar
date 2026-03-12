@@ -1,0 +1,53 @@
+MOHAMED ABRAR S A
+Chennai, Tamil Nadu
+9042272801 samohamedabrar2005@gmail.com linkedin.com/in/mohamed-abrar-24sa github.com/ab-rar-6024
+About Me
+Aspiring Data Science Engineer pursuing B.Tech in Artificial Intelligence and Data Science, seeking internship and entry-level
+opportunities to apply knowledge of machine learning, data analysis, and software development. Eager to contribute to real-world
+projects and gain hands-on industry experience.
+Education
+B.Tech – Artificial Intelligence and Data Science2023 – 2027
+B. S. Abdur Rahman Crescent Institute of Science and Technology
+Technical Skills
+Hard Skills:Python, SQL, Machine Learning, Data Science
+Soft Skills:Problem Solving, Analytical Thinking, Team Collaboration, Communication, Adaptability, Time Management
+Internship
+IT Intern 19 June 2025 – 9 July 2025
+DP World
+•Completed a 15-day intensive IT internship focused on hands-on practical learning.
+•Worked on 10 project-based tasks involving IT systems and applications.
+•Gained exposure to software development, system support, and database operations.
+•Assisted in application development, testing, and troubleshooting.
+•Followed IT workflows, documentation, and industry best practices.
+•Collaborated with team members in a real-time operational environment.
+Projects
+Power BI Analytics Project
+•Designed interactive dashboards with KPIs, charts, slicers, and filters.
+•Analyzed operational datasets to generate actionable insights.
+AI Chatbot Application
+•Developed a rule-based and AI-assisted chatbot for automated query handling.
+•Improved response efficiency using predefined logic and NLP concepts.
+College Portal Management System
+•Built a web-based portal for student registration and academic management.
+•Implemented CRUD operations and role-based access control.
+Data Visualization Tool using R
+•Created analytical visualizations using R and ggplot2.
+•Transformed raw data into meaningful graphical reports.
+Mobile & Web Punch In/Out System
+•Developed a web-based attendance system with authentication and time tracking.
+Container Automation System
+•Designed automation logic for container allocation and tracking.
+Vehicle Detection System
+•Implemented a computer vision-based vehicle detection solution.
+AI Traffic Management System
+•Designed an AI-based system to monitor and manage traffic flow.
+AI Agriculture Water Sprinkler System
+•Built an AI-enabled irrigation system to optimize water usage.
+Certifications
+•AWS Project Network – Coursera
+•Machine Learning A-Z – Udemy
+•Deep Learning – Udemy
+•Data Mining in R – Infosys
+•Business Intelligence – Infosys
+•BCGX Job Simulation (Generative AI)
+•Quantium Job Simulation
